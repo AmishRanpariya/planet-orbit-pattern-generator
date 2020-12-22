@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.2/dist/css/bootstrap.min.css">
+  <script src="p5.js"></script>
+  <script src="p5.sound.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+</head>
+
+<body>
+  <div class="form-group col-md-4 mt-2">
+    <label>Planet1</label>
+amishranpariya@gmail.com
+      <option>Mercury</option>
+      <option>Venus</option>
+      <option selected>Earth</option>
+      <option>Mars</option>
+      <option>Jupiter</option>
+      <option>Saturn</option>
+      <option>Uranus</option>
+      <option>Neptune</option>
+      <option>Pluto</option>
+    </select>
+  </div>
+  <div class="form-group col-md-4">
+    <label>Planet2</label>
+    <select id="inputP2" class="form-control" onchange="setPlanets()">
+      <option>Mercury</option>
+      <option selected>Venus</option>
+      <option>Earth</option>
+      <option>Mars</option>
+      <option>Jupiter</option>
+      <option>Saturn</option>
+      <option>Uranus</option>
+      <option>Neptune</option>
+      <option>Pluto</option>
+    </select>
+  </div>
+  <script src="sketch.js"></script>
+</body>
+
+</html>
