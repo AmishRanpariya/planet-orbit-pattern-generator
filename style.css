@@ -3,7 +3,10 @@ html,body{
   padding: 0;
   background:#000;
   color:white;
+  text-align: center;
+  
 }
 canvas {
   display: block;
+  margin: auto;
 }

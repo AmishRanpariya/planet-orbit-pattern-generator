@@ -25,8 +25,8 @@ function preload() {
   uranusimg = loadImage("images/uranus.png");
   neptuneimg = loadImage("images/neptune.png");
   plutoimg = loadImage("images/pluto.png");
-  sunimg = loadImage("sun.png");
-  spaceimg = loadImage("space.jpg");
+  sunimg = loadImage("images/sun.png");
+  spaceimg = loadImage("images/space.jpg");
 }
 
 
