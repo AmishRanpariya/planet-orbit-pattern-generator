@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<script src="p5.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<meta charset="utf-8" />
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="form-group">
+				<label>Planet 1</label>
+				<select id="inputP1" onchange="setPlanets()">
+					<option>Mercury</option>
+					<option>Venus</option>
+					<option selected>Earth</option>
+					<option>Mars</option>
+					<option>Jupiter</option>
+					<option>Saturn</option>
+					<option>Uranus</option>
+					<option>Neptune</option>
+					<option>Pluto</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label>Planet 2</label>
+				<select id="inputP2" onchange="setPlanets()">
+					<option>Mercury</option>
+					<option selected>Venus</option>
+					<option>Earth</option>
+					<option>Mars</option>
+					<option>Jupiter</option>
+					<option>Saturn</option>
+					<option>Uranus</option>
+					<option>Neptune</option>
+					<option>Pluto</option>
+				</select>
+			</div>
+		</div>
+		<script src="sketch.js"></script>
+	</body>
+</html>

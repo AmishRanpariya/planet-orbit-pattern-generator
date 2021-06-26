@@ -1,0 +1,22 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	background: rgb(19, 21, 59);
+	color: white;
+	text-align: center;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+canvas {
+	display: block;
+	margin: auto;
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container > *{
+	margin: 0.5rem 1rem;
+}
